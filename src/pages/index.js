@@ -1,5 +1,16 @@
 import React from "react"
+import { Link } from 'gatsby'
 
-export default function Home() {
-  return <div>Hello world!</div>
+import Layout from '../components/layout'
+
+export default function IndexPage () {
+  return (
+    <Layout>
+      <section>
+        <h1>Hello,</h1>
+        <h2>I'm Tyrone a film editor living in beautiful Auckland, New Zealand.</h2>
+        <p>Need a film editor? <Link to='/contact'>Contact me</Link>.</p>
+      </section>
+    </Layout>
+  )
 }
