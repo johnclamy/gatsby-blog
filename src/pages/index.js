@@ -8,7 +8,7 @@ export default function IndexPage () {
     <Layout>
       <section>
         <h1>Hello,</h1>
-        <h2>I'm Tyrone a film editor living in beautiful Auckland, New Zealand.</h2>
+        <h2>I'm Tyrone, a film editor living in beautiful Auckland, New Zealand.</h2>
         <p>Need a film editor? <Link to='/contact'>Contact me</Link>.</p>
       </section>
     </Layout>
