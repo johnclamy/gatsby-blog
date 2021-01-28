@@ -8,6 +8,8 @@ This full-time course earned me 120 credits. Looking back, they were 40 weeks of
 
 Adobe Premiere became a tool of choice. I remember spending many months glued to the keyboard perfecting every edit. Other tools that I grew found of were Photoshop and After Effects.
 
+![graduate of 2020](./graduate_of_2020.jpg)
+
 ## Software to get the job done these days
 
 1. Adobe Premiere
