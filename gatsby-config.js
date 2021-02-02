@@ -1,3 +1,6 @@
+let env = process.env.NODE_ENV || 'development'
+require('dotenv').config({path: `./.env.${env}`})
+
 module.exports = {
   flags: {
     PRESERVE_WEBPACK_CACHE: true
@@ -7,6 +10,14 @@ module.exports = {
     description: `Showcasing my film editing skills`
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: `${process.env.CONTENTFUL_SPACE_ID}`,
+        accessToken: `${process.env.CONTENTFUL_ACCESS_TOKEN}`
+      }
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
